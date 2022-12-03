@@ -268,7 +268,7 @@ function theme.highlights(colors, config)
       SignColumn = { fg = colors.fg, bg = colors.none },
 
       -- the column separating vertically split windows
-      VertSplit = { fg = colors.bg, bg = colors.bg },
+      VertSplit = { fg = colors.active, bg = colors.active },
 
       EndOfBuffer = { fg = colors.gray },
     }
@@ -704,6 +704,15 @@ function theme.highlights(colors, config)
       BufferInactiveMod = { fg = colors.yellow, bg = colors.active },
       BufferInactiveSign = { fg = colors.light_gray, bg = colors.active },
       BufferInactiveTarget = { fg = colors.red, bg = colors.active, style = "bold" },
+
+      -- neo-tree
+      NeoTreeNormal = { bg = colors.active },
+      NeoTreeNormalNC = { bg = colors.active },
+      NeoTreeTabInactive = { bg = colors.active },
+      NeoTreeTabActive = { bg = colors.bg },
+      NeoTreeTabSeparatorInactive = { bg = colors.active },
+      NeoTreeTabSeparatorActive = { bg = colors.bg },
+      NeoTreeIndentMarker = { fg = colors.blue },
 
       -- Sneak
       Sneak = { fg = colors.bg, bg = colors.fg },
