@@ -689,13 +689,13 @@ function theme.highlights(colors, config)
       TreesitterContext = { fg = colors.none, bg = colors.active },
 
       -- barbar
-      BufferCurrent = { fg = colors.fg, bg = colors.bg },
-      BufferCurrentIndex = { fg = colors.fg, bg = colors.bg },
+      BufferCurrent = { fg = colors.bg, bg = colors.none, style = "reverse" },
+      BufferCurrentIndex = { fg = colors.bg, bg = colors.none, style = "reverse" },
       BufferCurrentMod = { fg = colors.yellow, bg = colors.bg, style = "bold" },
       BufferCurrentSign = { fg = colors.cyan, bg = colors.bg },
       BufferCurrentTarget = { fg = colors.red, bg = colors.bg, style = "bold" },
-      BufferVisible = { fg = colors.fg, bg = colors.bg },
-      BufferVisibleIndex = { fg = colors.fg, bg = colors.bg },
+      BufferVisible = { fg = colors.bg, bg = colors.none, style = "reverse" },
+      BufferVisibleIndex = { fg = colors.bg, bg = colors.none, style = "reverse" },
       BufferVisibleMod = { fg = colors.yellow, bg = colors.bg, style = "bold" },
       BufferVisibleSign = { fg = colors.light_gray, bg = colors.bg },
       BufferVisibleTarget = { fg = colors.red, bg = colors.bg, style = "bold" },
