@@ -268,7 +268,7 @@ function theme.highlights(colors, config)
       SignColumn = { fg = colors.fg, bg = colors.none },
 
       -- the column separating vertically split windows
-      VertSplit = { fg = colors.active, bg = colors.active },
+      VertSplit = { fg = colors.bg },
 
       EndOfBuffer = { fg = colors.gray },
     }
@@ -689,30 +689,21 @@ function theme.highlights(colors, config)
       TreesitterContext = { fg = colors.none, bg = colors.active },
 
       -- barbar
-      BufferCurrent = { fg = colors.fg, bg = colors.selection },
-      BufferCurrentIndex = { fg = colors.fg, bg = colors.selection },
-      BufferCurrentMod = { fg = colors.yellow, bg = colors.selection, style = "bold" },
-      BufferCurrentSign = { fg = colors.cyan, bg = colors.selection },
-      BufferCurrentTarget = { fg = colors.red, bg = colors.selection, style = "bold" },
-      BufferVisible = { fg = colors.fg, bg = colors.selection },
-      BufferVisibleIndex = { fg = colors.fg, bg = colors.selection },
-      BufferVisibleMod = { fg = colors.yellow, bg = colors.selection, style = "bold" },
-      BufferVisibleSign = { fg = colors.light_gray, bg = colors.selection },
-      BufferVisibleTarget = { fg = colors.red, bg = colors.selection, style = "bold" },
+      BufferCurrent = { fg = colors.fg, bg = colors.bg },
+      BufferCurrentIndex = { fg = colors.fg, bg = colors.bg },
+      BufferCurrentMod = { fg = colors.yellow, bg = colors.bg, style = "bold" },
+      BufferCurrentSign = { fg = colors.cyan, bg = colors.bg },
+      BufferCurrentTarget = { fg = colors.red, bg = colors.bg, style = "bold" },
+      BufferVisible = { fg = colors.fg, bg = colors.bg },
+      BufferVisibleIndex = { fg = colors.fg, bg = colors.bg },
+      BufferVisibleMod = { fg = colors.yellow, bg = colors.bg, style = "bold" },
+      BufferVisibleSign = { fg = colors.light_gray, bg = colors.bg },
+      BufferVisibleTarget = { fg = colors.red, bg = colors.bg, style = "bold" },
       BufferInactive = { fg = colors.light_gray, bg = colors.active },
       BufferInactiveIndex = { fg = colors.light_gray, bg = colors.active },
       BufferInactiveMod = { fg = colors.yellow, bg = colors.active },
       BufferInactiveSign = { fg = colors.light_gray, bg = colors.active },
       BufferInactiveTarget = { fg = colors.red, bg = colors.active, style = "bold" },
-
-      -- neo-tree
-      NeoTreeNormal = { bg = colors.active },
-      NeoTreeNormalNC = { bg = colors.active },
-      NeoTreeTabInactive = { bg = colors.active },
-      NeoTreeTabActive = { bg = colors.bg },
-      NeoTreeTabSeparatorInactive = { bg = colors.active },
-      NeoTreeTabSeparatorActive = { bg = colors.bg },
-      NeoTreeIndentMarker = { fg = colors.blue },
 
       -- Sneak
       Sneak = { fg = colors.bg, bg = colors.fg },
