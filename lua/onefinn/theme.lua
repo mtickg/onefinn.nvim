@@ -688,23 +688,6 @@ function theme.highlights(colors, config)
       -- nvim-treesitter-context
       TreesitterContext = { fg = colors.none, bg = colors.active },
 
-      -- barbar
-      BufferCurrent = { fg = colors.fg, bg = colors.selection },
-      BufferCurrentIndex = { fg = colors.fg, bg = colors.selection },
-      BufferCurrentMod = { fg = colors.yellow, bg = colors.selection, style = "bold" },
-      BufferCurrentSign = { fg = colors.cyan, bg = colors.selection },
-      BufferCurrentTarget = { fg = colors.red, bg = colors.selection, style = "bold" },
-      BufferVisible = { fg = colors.fg, bg = colors.selection },
-      BufferVisibleIndex = { fg = colors.fg, bg = colors.selection },
-      BufferVisibleMod = { fg = colors.yellow, bg = colors.selection, style = "bold" },
-      BufferVisibleSign = { fg = colors.light_gray, bg = colors.selection },
-      BufferVisibleTarget = { fg = colors.red, bg = colors.selection, style = "bold" },
-      BufferInactive = { fg = colors.light_gray, bg = colors.active },
-      BufferInactiveIndex = { fg = colors.light_gray, bg = colors.active },
-      BufferInactiveMod = { fg = colors.yellow, bg = colors.active },
-      BufferInactiveSign = { fg = colors.light_gray, bg = colors.active },
-      BufferInactiveTarget = { fg = colors.red, bg = colors.active, style = "bold" },
-
       -- Sneak
       Sneak = { fg = colors.bg, bg = colors.fg },
       SneakScope = { bg = colors.selection },
@@ -782,6 +765,25 @@ function theme.highlights(colors, config)
       rainbowcol5 = { fg = colors.cyan },
       rainbowcol6 = { fg = colors.blue },
       rainbowcol7 = { fg = colors.purple },
+
+      -- barbar
+      BufferCurrent = { fg = colors.fg, bg = colors.selection },
+      BufferCurrentIndex = { fg = colors.fg, bg = colors.selection },
+      BufferCurrentMod = { fg = colors.yellow, bg = colors.selection, style = "bold" },
+      BufferCurrentSign = { fg = colors.cyan, bg = colors.selection },
+      BufferCurrentTarget = { fg = colors.red, bg = colors.selection, style = "bold" },
+      BufferVisible = { fg = colors.fg, bg = colors.selection },
+      BufferVisibleIndex = { fg = colors.fg, bg = colors.selection },
+      BufferVisibleMod = { fg = colors.yellow, bg = colors.selection, style = "bold" },
+      BufferVisibleSign = { fg = colors.light_gray, bg = colors.selection },
+      BufferVisibleTarget = { fg = colors.red, bg = colors.selection, style = "bold" },
+      BufferInactive = { fg = colors.light_gray, bg = colors.active },
+      BufferInactiveIndex = { fg = colors.light_gray, bg = colors.active },
+      BufferInactiveMod = { fg = colors.yellow, bg = colors.active },
+      BufferInactiveSign = { fg = colors.light_gray, bg = colors.active },
+      BufferInactiveTarget = { fg = colors.red, bg = colors.active, style = "bold" },
+
+      -- neo-tree
     }
 
     -- Options:
