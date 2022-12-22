@@ -601,10 +601,10 @@ function theme.highlights(colors, config)
       GitSignsAdd = { fg = colors.diff_add, bg = colors.active }, -- diff mode: Added line |diff.txt|
       GitSignsAddNr = { fg = colors.diff_add }, -- diff mode: Added line |diff.txt|
       GitSignsAddLn = { fg = colors.diff_add }, -- diff mode: Added line |diff.txt|
-      GitSignsChange = { fg = colors.diff_change }, -- diff mode: Changed line |diff.txt|
+      GitSignsChange = { fg = colors.diff_change, bg = colors.active }, -- diff mode: Changed line |diff.txt|
       GitSignsChangeNr = { fg = colors.diff_change }, -- diff mode: Changed line |diff.txt|
       GitSignsChangeLn = { fg = colors.diff_change }, -- diff mode: Changed line |diff.txt|
-      GitSignsDelete = { fg = colors.diff_remove }, -- diff mode: Deleted line |diff.txt|
+      GitSignsDelete = { fg = colors.diff_remove, bg = colors.active }, -- diff mode: Deleted line |diff.txt|
       GitSignsDeleteNr = { fg = colors.diff_remove }, -- diff mode: Deleted line |diff.txt|
       GitSignsDeleteLn = { fg = colors.diff_remove }, -- diff mode: Deleted line |diff.txt|
 
