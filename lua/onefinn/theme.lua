@@ -265,7 +265,7 @@ function theme.highlights(colors, config)
       -- normal text and background color
       Normal = { fg = colors.fg, bg = colors.none },
       NormalNC = { bg = colors.none },
-      SignColumn = { fg = colors.fg, bg = colors.active },
+      SignColumn = { fg = colors.fg, bg = colors.none },
 
       -- the column separating vertically split windows
       VertSplit = { fg = colors.bg },
@@ -475,7 +475,7 @@ function theme.highlights(colors, config)
       -- used for "Hint" diagnostic virtual text
       LspDiagnosticsDefaultHint = { fg = colors.hint },
       -- used for "Hint" diagnostic signs in sign column
-      LspDiagnosticsSignHint = { fg = colors.hint },
+      LspDiagnosticsSignHint = { fg = colors.hint, bg = colors.active },
       -- used for "Hint" diagnostic messages in the diagnostics float
       LspDiagnosticsFloatingHint = { fg = colors.hint },
       -- Virtual text "Hint"
