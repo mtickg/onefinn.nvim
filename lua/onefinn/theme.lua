@@ -785,6 +785,7 @@ function theme.highlights(colors, config)
 
       -- neo-tree
       NeoTreeCursorLine = { fg = colors.none, bg = colors.active },
+      NeoTreeCursor = { bg = colors.none },
     }
 
     -- Options:
