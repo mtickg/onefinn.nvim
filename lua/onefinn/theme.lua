@@ -754,7 +754,7 @@ function theme.highlights(colors, config)
       NavicIconsEvent = { bg = colors.active, fg = colors.purple },
       NavicIconsOperator = { bg = colors.active, fg = colors.purple },
       NavicIconsTypeParameter = { bg = colors.active, fg = colors.yellow },
-      NavicText = { bg = colors.active, fg = colors.fg },
+      NavicText = { bg = colors.active, fg = colors.blue },
       NavicSeparator = { bg = colors.active, fg = colors.selection },
 
       -- nvim-ts-rainbow
