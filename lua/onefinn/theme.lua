@@ -263,9 +263,9 @@ function theme.highlights(colors, config)
       DashboardFooter = { fg = colors.green, style = "italic" },
 
       -- normal text and background color
-      Normal = { fg = colors.fg, bg = colors.none },
+      Normal = { fg = colors.fg, bg = colors.bg },
       NormalNC = { bg = colors.none },
-      SignColumn = { fg = colors.fg, bg = colors.none },
+      SignColumn = { fg = colors.fg, bg = colors.bg },
 
       -- the column separating vertically split windows
       VertSplit = { fg = colors.bg },
