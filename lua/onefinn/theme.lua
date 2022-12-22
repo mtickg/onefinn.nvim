@@ -165,7 +165,7 @@ function theme.highlights(colors, config)
       -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
       LineNr = { fg = colors.light_gray },
       -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-      CursorLineNr = { fg = colors.cyan },
+      CursorLineNr = { fg = colors.green, style = "bold" },
       -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
       MatchParen = { fg = colors.yellow, bg = colors.none, style = "bold" },
       -- 'showmode' message (e.g., "-- INSERT -- ")
@@ -268,7 +268,7 @@ function theme.highlights(colors, config)
       SignColumn = { fg = colors.fg, bg = colors.none },
 
       -- the column separating vertically split windows
-      VertSplit = { fg = colors.bg },
+      VertSplit = { fg = colors.active, bg = colors.none },
 
       EndOfBuffer = { fg = colors.gray },
     }
