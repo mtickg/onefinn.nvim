@@ -786,6 +786,8 @@ function theme.highlights(colors, config)
       -- neo-tree
       NeoTreeCursorLine = { fg = colors.none, bg = colors.selection },
       NeoTreeVertSplit = { fg = colors.none, bg = colors.active },
+      NeoTreeIndentMarker = { fg = colors.light_gray },
+      NeoTreeExpander = { fg = colors.light_gray },
     }
 
     -- Options:
