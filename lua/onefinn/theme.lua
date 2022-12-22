@@ -475,7 +475,7 @@ function theme.highlights(colors, config)
       -- used for "Hint" diagnostic virtual text
       LspDiagnosticsDefaultHint = { fg = colors.hint },
       -- used for "Hint" diagnostic signs in sign column
-      LspDiagnosticsSignHint = { fg = colors.hint, bg = colors.active },
+      LspDiagnosticsSignHint = { fg = colors.hint },
       -- used for "Hint" diagnostic messages in the diagnostics float
       LspDiagnosticsFloatingHint = { fg = colors.hint },
       -- Virtual text "Hint"
