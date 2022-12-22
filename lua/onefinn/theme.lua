@@ -598,7 +598,7 @@ function theme.highlights(colors, config)
       GitGutterDelete = { fg = colors.diff_remove }, -- diff mode: Deleted line |diff.txt|
 
       -- GitSigns
-      GitSignsAdd = { fg = colors.diff_add }, -- diff mode: Added line |diff.txt|
+      GitSignsAdd = { fg = colors.diff_add, bg = colors.active }, -- diff mode: Added line |diff.txt|
       GitSignsAddNr = { fg = colors.diff_add }, -- diff mode: Added line |diff.txt|
       GitSignsAddLn = { fg = colors.diff_add }, -- diff mode: Added line |diff.txt|
       GitSignsChange = { fg = colors.diff_change }, -- diff mode: Changed line |diff.txt|
