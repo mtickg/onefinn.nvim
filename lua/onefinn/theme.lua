@@ -784,8 +784,8 @@ function theme.highlights(colors, config)
       BufferInactiveTarget = { fg = colors.red, bg = colors.active, style = "bold" },
 
       -- neo-tree
-      NeoTreeCursorLine = { fg = colors.none, bg = colors.selection },
-      NeoTreeVertSplit = { fg = colors.none, bg = colors.active },
+      NeoTreeCursorLine = { bg = colors.selection },
+      NeoTreeVertSplit = { fg = colors.active, bg = colors.active },
       NeoTreeIndentMarker = { fg = colors.bg },
       NeoTreeExpander = { fg = colors.bg },
     }
