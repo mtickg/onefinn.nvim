@@ -165,7 +165,7 @@ function theme.highlights(colors, config)
       -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
       LineNr = { fg = colors.light_gray },
       -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-      CursorLineNr = { fg = colors.fg, bg = colors.active },
+      CursorLineNr = { fg = colors.cyan },
       -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
       MatchParen = { fg = colors.yellow, bg = colors.none, style = "bold" },
       -- 'showmode' message (e.g., "-- INSERT -- ")
