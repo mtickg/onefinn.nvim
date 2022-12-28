@@ -163,13 +163,13 @@ function theme.highlights(colors, config)
       -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
       IncSearch = { fg = colors.yellow, bg = colors.selection, style = "bold,underline" },
       -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
-      LineNr = { fg = colors.light_gray },
+      LineNr = { fg = colors.light_gray, bg = colors.float },
       -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
-      CursorLineNr = { fg = colors.green, style = "bold" },
+      CursorLineNr = { fg = colors.cyan, bg = colors.active, style = "bold" },
       -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
       MatchParen = { fg = colors.yellow, bg = colors.none, style = "bold" },
       -- 'showmode' message (e.g., "-- INSERT -- ")
-      ModeMsg = { fg = colors.blue, style = "bold" },
+      ModeMsg = { fg = colors.cyan, style = "bold" },
       -- |more-prompt|
       MoreMsg = { fg = colors.blue, style = "bold" },
       -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist
@@ -265,10 +265,10 @@ function theme.highlights(colors, config)
       -- normal text and background color
       Normal = { fg = colors.fg, bg = colors.bg },
       NormalNC = { bg = colors.bg },
-      SignColumn = { fg = colors.fg, bg = colors.none },
+      SignColumn = { fg = colors.fg, bg = colors.float },
 
       -- the column separating vertically split windows
-      VertSplit = { fg = colors.active, bg = colors.none },
+      VertSplit = { fg = colors.active, bg = colors.float },
 
       EndOfBuffer = { fg = colors.gray },
     }
