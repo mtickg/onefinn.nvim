@@ -794,7 +794,7 @@ function theme.highlights(colors, config)
       NeoTreeEndOfBuffer = { fg = colors.float },
       NeoTreeRootName = { fg = colors.cyan, style = "bold" },
       NeoTreeDirectoryIcon = { fg = colors.yellow },
-      NeoTreeFloatBorder = { bg = colors.active },
+      NeoTreeFloatBorder = { fg = colors.float, bg = colors.active },
       NeoTreeFloatTitle = { fg = colors.cyan, bg = colors.selection, style = "bold" },
       NeoTreeIndentMarker = { fg = colors.selection },
       NeoTreeExpander = { fg = colors.selection },
