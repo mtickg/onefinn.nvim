@@ -808,6 +808,7 @@ function theme.highlights(colors, config)
       NeoTreeGitUnstaged = { fg = colors.yellow, style = "bold" },
       NeoTreeGitUntracked = { fg = colors.orange, style = "bold" },
       NeoTreeGitStaged = { fg = colors.green, style = "bold" },
+      NeoTreeVertSplit = { fg = colors.active, bg = colors.active },
     }
 
     -- Options:
