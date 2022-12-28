@@ -145,7 +145,7 @@ function theme.highlights(colors, config)
       -- like Cursor, but used when in IME mode
       CursorIM = { fg = colors.fg, bg = colors.none, style = "reverse" },
       -- directory names (and other special names in listings)
-      Directory = { fg = colors.blue, bg = colors.none },
+      Directory = { fg = colors.blue, bg = colors.none, style = "reverse" },
       -- diff mode: Added line
       DiffAdd = { fg = colors.none, bg = colors.diff_add_bg },
       -- diff mode: Changed line
