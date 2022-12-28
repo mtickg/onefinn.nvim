@@ -268,7 +268,7 @@ function theme.highlights(colors, config)
       SignColumn = { fg = colors.fg },
 
       -- the column separating vertically split windows
-      VertSplit = { fg = colors.active, bg = colors.float },
+      VertSplit = { fg = colors.active, bg = colors.active },
 
       EndOfBuffer = { fg = colors.gray },
     }
