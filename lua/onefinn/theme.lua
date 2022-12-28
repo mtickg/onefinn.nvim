@@ -10,7 +10,7 @@ function theme.highlights(colors, config)
 
     local syntax = {
       -- int, long, char, etc.
-      Type = { fg = colors.yellow },
+      Type = { fg = colors.yellow }
       -- static, register, volatile, etc.
       StorageClass = { fg = colors.purple },
       -- struct, union, enum, etc.
@@ -265,10 +265,10 @@ function theme.highlights(colors, config)
       -- normal text and background color
       Normal = { fg = colors.fg, bg = colors.bg },
       NormalNC = { bg = colors.bg },
-      SignColumn = { fg = colors.fg, bg = colors.float },
+      SignColumn = { fg = colors.fg, bg = colors.selection },
 
       -- the column separating vertically split windows
-      VertSplit = { fg = colors.active, bg = colors.selection },
+      VertSplit = { fg = colors.active, bg = colors.float },
 
       EndOfBuffer = { fg = colors.gray },
     }
