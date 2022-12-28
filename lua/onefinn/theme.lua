@@ -622,7 +622,7 @@ function theme.highlights(colors, config)
       NvimTreeSymlink = { fg = colors.cyan, style = "bold" },
       NvimTreeRootFolder = { fg = colors.green, style = "bold" },
       NvimTreeFolderName = { fg = colors.blue },
-      NvimTreeFolderIcon = { fg = colors.dark_blue },
+      NvimTreeFolderIcon = { fg = colors.yellow },
       NvimTreeEmptyFolderName = { fg = colors.light_gray },
       NvimTreeOpenedFolderName = { fg = colors.yellow, style = "italic" },
       NvimTreeIndentMarker = { fg = colors.blue },
@@ -784,10 +784,6 @@ function theme.highlights(colors, config)
       BufferInactiveTarget = { fg = colors.red, bg = colors.active, style = "bold" },
 
       -- neo-tree
-      -- NeoTreeCursorLine = { bg = colors.selection },
-      -- NeoTreeVertSplit = { fg = colors.active, bg = colors.active },
-      -- NeoTreeIndentMarker = { fg = colors.bg },
-      -- NeoTreeExpander = { fg = colors.bg },
       NeoTreeNormal = { bg = colors.float },
       NeoTreeNormalNC = { bg = colors.float },
       NeoTreeTabInactive = { fg = colors.selection, bg = colors.active },
@@ -796,7 +792,9 @@ function theme.highlights(colors, config)
       NeoTreeTabSeparatorActive = { bg = colors.bg },
       NeoTreeWinSeparator = { fg = colors.active, bg = colors.active },
       NeoTreeEndOfBuffer = { fg = colors.float },
-      NeoTreeRootName = { fg = colors.yellow, style = "bold" },
+      NeoTreeRootName = { fg = colors.cyan, style = "bold" },
+      NeoTreeDirectoryIcon = { fg = colors.yellow },
+      NeoTreeFloatBorder = { bg = colors.active },
     }
 
     -- Options:
