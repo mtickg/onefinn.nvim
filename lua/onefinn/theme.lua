@@ -10,7 +10,7 @@ function theme.highlights(colors, config)
 
     local syntax = {
       -- int, long, char, etc.
-      Type = { fg = colors.yellow }
+      Type = { fg = colors.yellow },
       -- static, register, volatile, etc.
       StorageClass = { fg = colors.purple },
       -- struct, union, enum, etc.
