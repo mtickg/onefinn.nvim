@@ -163,7 +163,7 @@ function theme.highlights(colors, config)
       -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
       IncSearch = { fg = colors.yellow, bg = colors.selection, style = "bold,underline" },
       -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
-      LineNr = { fg = colors.light_gray, bg = colors.float },
+      LineNr = { fg = colors.light_gray },
       -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
       CursorLineNr = { fg = colors.cyan, bg = colors.active, style = "bold" },
       -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
@@ -265,7 +265,7 @@ function theme.highlights(colors, config)
       -- normal text and background color
       Normal = { fg = colors.fg, bg = colors.bg },
       NormalNC = { bg = colors.bg },
-      SignColumn = { fg = colors.fg, bg = colors.float },
+      SignColumn = { fg = colors.fg },
 
       -- the column separating vertically split windows
       VertSplit = { fg = colors.active, bg = colors.float },
