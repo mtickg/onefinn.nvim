@@ -265,7 +265,7 @@ function theme.highlights(colors, config)
       -- normal text and background color
       Normal = { fg = colors.fg, bg = colors.bg },
       NormalNC = { bg = colors.bg },
-      SignColumn = { fg = colors.fg },
+      SignColumn = { fg = colors.fg, bg = colors.float },
 
       -- the column separating vertically split windows
       VertSplit = { fg = colors.active, bg = colors.float },
