@@ -800,6 +800,14 @@ function theme.highlights(colors, config)
       NeoTreeFloatTitle = { fg = colors.cyan, bg = colors.active, style = "bold" },
       NeoTreeIndentMarker = { fg = colors.selection },
       NeoTreeExpander = { fg = colors.selection },
+      NeoTreeGitAdded = { fg = colors.green, style = "bold" },
+      NeoTreeGitConflict = { fg = colors.orange, style = "bold" },
+      NeoTreeGitDeleted = { fg = colors.red, style = "bold" },
+      NeoTreeGitIgnored = { fg = colors.gray, style = "bold" },
+      NeoTreeGitModified = { fg = colors.yellow, style = "bold" },
+      NeoTreeGitUnstaged = { fg = colors.yellow, style = "bold" },
+      NeoTreeGitUntracked = { fg = colors.orange, style = "bold" },
+      NeoTreeGitStaged = { fg = colors.green, style = "bold" },
     }
 
     -- Options:
